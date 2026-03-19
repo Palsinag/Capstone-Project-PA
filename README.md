@@ -180,4 +180,3 @@ This repository is intentionally curated for academic review:
 - `outputs/thesis_tables/` and `outputs/thesis_figures/` contain the numbered Chapter 4 artifacts cited in the thesis
 - `outputs/exploratory/` contains additional diagnostic and exploratory outputs that support reproducibility but are not part of the main reported results
 
-This keeps the repository clean for examiners while preserving a transparent audit trail.
