@@ -1,0 +1,7 @@
+predicted_risk_category,n_projects,share_projects,target,model
+high_risk,11,0.022,cost_overrun_pct,linear_regression
+low_risk,400,0.8,cost_overrun_pct,linear_regression
+moderate_risk,89,0.178,cost_overrun_pct,linear_regression
+high_risk,23,0.046,schedule_overrun_pct,linear_regression
+low_risk,384,0.768,schedule_overrun_pct,linear_regression
+moderate_risk,93,0.186,schedule_overrun_pct,linear_regression

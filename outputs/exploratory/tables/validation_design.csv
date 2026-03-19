@@ -1,0 +1,2 @@
+n_total,train_size_ratio,test_size_ratio,n_train,n_test,cv_folds_within_training,cv_used_for_model_selection,cv_used_for_hyperparameter_tuning
+2500,0.8,0.2,2000,500,5,True,True

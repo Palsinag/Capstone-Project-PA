@@ -1,0 +1,25 @@
+variable,type,description
+project_scale_tier,categorical,Structural project scale tier used for stratified generation.
+project_complexity_tier,categorical,Structural project complexity tier used for stratified generation.
+planned_budget,continuous,Planned project budget observed at initiation.
+planned_duration,continuous,Planned project duration observed at initiation.
+scope_variability_index,"continuous_[0,1]",Early-stage scope variability proxy.
+stakeholder_multiplicity_index,"continuous_[0,1]",Proxy for stakeholder coordination complexity.
+financial_uncertainty,"continuous_[0,1]",Financial uncertainty index available at planning stage.
+technical_uncertainty,"continuous_[0,1]",Technical uncertainty index available at planning stage.
+environmental_uncertainty,"continuous_[0,1]",Environmental uncertainty index available at planning stage.
+planning_maturity_score,"continuous_[0,1]",Planning/governance quality score.
+contract_type,categorical,Planned contractual regime.
+log_planned_budget,engineered_continuous,Log transform of planned budget.
+log_planned_duration,engineered_continuous,Log transform of planned duration.
+complexity_x_uncertainty,engineered_continuous,Interaction between overall complexity and uncertainty.
+scale_x_planning_maturity,engineered_continuous,Interaction between project scale and planning maturity.
+stakeholder_x_governance,engineered_continuous,Interaction between stakeholder multiplicity and weaker governance.
+scope_x_technical_uncertainty,engineered_continuous,Interaction between scope variability and technical uncertainty.
+composite_risk_index,engineered_continuous,Average of the three uncertainty indices.
+cost_overrun_pct,target_continuous,Percentage cost overrun relative to planned cost.
+schedule_overrun_pct,target_continuous,Percentage schedule overrun relative to planned duration.
+contingency_buffer_ratio,"continuous_[0,1]",Planned contingency allowance ratio.
+team_experience_score,"continuous_[0,1]",Planning-stage project team experience score.
+supplier_dependency_index,"continuous_[0,1]",Dependence on key suppliers at planning stage.
+regulatory_complexity_score,"continuous_[0,1]",Expected regulatory complexity before execution.

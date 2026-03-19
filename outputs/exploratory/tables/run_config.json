@@ -1,0 +1,66 @@
+{
+  "base_dir": ".",
+  "bootstrap_iterations": 1000,
+  "contract_probs": [
+    0.45,
+    0.2,
+    0.25,
+    0.1
+  ],
+  "contract_types": [
+    "fixed_price",
+    "cost_reimbursable",
+    "target_cost",
+    "hybrid_other"
+  ],
+  "cv_folds": 5,
+  "data_processed_dir": "data/processed",
+  "data_raw_dir": "data/raw",
+  "data_root": "data",
+  "high_risk_eval_thresholds": [
+    0.1,
+    0.15
+  ],
+  "include_optional_planning_features": true,
+  "missing_rate": 0.02,
+  "n_projects": 2500,
+  "notebooks_dir": "notebooks",
+  "outlier_rate": 0.01,
+  "output_figures_dir": "outputs/figures",
+  "output_models_dir": "outputs/models",
+  "output_root": "outputs",
+  "output_tables_dir": "outputs/tables",
+  "python_hash_seed": 42,
+  "random_state": 42,
+  "rf_random_search_iter": 30,
+  "risk_band_edges": [
+    0.05,
+    0.15
+  ],
+  "robustness_n_projects": 5000,
+  "robustness_rf_random_search_iter": 10,
+  "robustness_xgb_random_search_iter": 12,
+  "sample_size_robustness_enabled": false,
+  "scale_complexity_joint_probs": [
+    [
+      0.12,
+      0.17,
+      0.07
+    ],
+    [
+      0.09,
+      0.19,
+      0.12
+    ],
+    [
+      0.04,
+      0.11,
+      0.09
+    ]
+  ],
+  "shap_dependence_top_n": 2,
+  "test_size": 0.2,
+  "winsor_lower_q": 0.01,
+  "winsor_upper_q": 0.99,
+  "xgb_random_search_iter": 40
+}

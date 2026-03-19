@@ -1,0 +1,10 @@
+metric,value
+residual_mean,0.00011771117422081689
+residual_std,0.036491110157673104
+residual_skew,0.9682255037776303
+breusch_pagan_lm,0.00017280170477862455
+breusch_pagan_lm_pvalue,0.9895117853932851
+breusch_pagan_f,0.00017211055741987277
+breusch_pagan_f_pvalue,0.9895380337371381
+jarque_bera_stat,111.91526325589136
+jarque_bera_pvalue,4.987803821267267e-25

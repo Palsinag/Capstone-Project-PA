@@ -1,0 +1,7 @@
+target,model,best_hyperparameters_json
+cost_overrun_pct,linear_regression,"{""tuned"": false}"
+cost_overrun_pct,random_forest,"{""model__max_depth"": 16, ""model__max_features"": null, ""model__min_samples_leaf"": 1, ""model__min_samples_split"": 8, ""model__n_estimators"": 208}"
+cost_overrun_pct,xgboost,"{""model__colsample_bytree"": 0.8035171238433423, ""model__learning_rate"": 0.07899979550563584, ""model__max_depth"": 3, ""model__n_estimators"": 670, ""model__reg_alpha"": 0.7722447692966574, ""model__reg_lambda"": 0.5974313630683448, ""model__subsample"": 0.602208846849441}"
+schedule_overrun_pct,linear_regression,"{""tuned"": false}"
+schedule_overrun_pct,random_forest,"{""model__max_depth"": 16, ""model__max_features"": null, ""model__min_samples_leaf"": 1, ""model__min_samples_split"": 8, ""model__n_estimators"": 208}"
+schedule_overrun_pct,xgboost,"{""model__colsample_bytree"": 0.8035171238433423, ""model__learning_rate"": 0.07899979550563584, ""model__max_depth"": 3, ""model__n_estimators"": 670, ""model__reg_alpha"": 0.7722447692966574, ""model__reg_lambda"": 0.5974313630683448, ""model__subsample"": 0.602208846849441}"

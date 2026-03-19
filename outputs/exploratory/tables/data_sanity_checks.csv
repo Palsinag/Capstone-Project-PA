@@ -1,0 +1,15 @@
+check,status,detail
+row_count,PASS,n_rows=2500 (expected 2500)
+range_scope_variability_index,PASS,"min=0.0000, max=0.9205"
+range_stakeholder_multiplicity_index,PASS,"min=0.0000, max=0.9267"
+range_financial_uncertainty,PASS,"min=0.0000, max=0.9982"
+range_technical_uncertainty,PASS,"min=0.0000, max=1.0000"
+range_environmental_uncertainty,PASS,"min=0.0000, max=1.0000"
+range_planning_maturity_score,PASS,"min=0.0668, max=1.0000"
+strata_coverage,PASS,min_cell_count=111
+non_deterministic_overlap,PASS,largest within-row complexity share must stay < 0.90
+right_skew_planned_budget,PASS,skew=2.6129
+right_skew_planned_duration,PASS,skew=1.8174
+right_skew_cost_overrun_pct,PASS,skew=0.4368
+right_skew_schedule_overrun_pct,PASS,skew=0.4022
+weak_size_uncertainty_correlation,PASS,"corr(planned_budget, financial_uncertainty)=0.1288"

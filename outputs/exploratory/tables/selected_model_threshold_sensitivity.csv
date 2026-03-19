@@ -1,0 +1,5 @@
+threshold,precision,recall,f1,tp,fp,tn,fn,target,model
+0.1,0.8108108108108109,0.6818181818181818,0.7407407407407407,30,7,449,14,cost_overrun_pct,linear_regression
+0.15,0.8181818181818182,0.5,0.6206896551724138,9,2,480,9,cost_overrun_pct,linear_regression
+0.1,0.8823529411764706,0.7142857142857143,0.7894736842105263,45,6,431,18,schedule_overrun_pct,linear_regression
+0.15,0.782608695652174,0.6,0.6792452830188679,18,5,465,12,schedule_overrun_pct,linear_regression
