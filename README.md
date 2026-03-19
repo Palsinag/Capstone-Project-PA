@@ -3,15 +3,38 @@
 ## Project Overview
 This repository contains the full reproducible implementation for the thesis:
 
-`Predicting Project Delays and Cost Overruns Using Machine Learning: Towards an AI-Driven Early Risk Detection Framework`
+**Predicting Project Delays and Cost Overruns Using Machine Learning: Towards an AI-Driven Early Risk Detection Framework**
 
-The project generates a synthetic planning-phase project dataset, trains regression models for cost and schedule overrun prediction, evaluates early-warning detection performance, and exports thesis-ready tables and figures.
+The project develops a machine learning pipeline to predict:
+- **cost overrun (%)**
+- **schedule overrun (%)**
+
+using synthetic **planning-phase project data** generated through Monte Carlo simulation.
+
+The repository includes:
+- synthetic data generation
+- feature engineering
+- preprocessing and leakage-safe model pipelines
+- regression model training and comparison
+- early-warning risk detection analysis
+- diagnostic and explainability outputs
+- thesis-ready tables and figures
 
 The implementation is designed to be:
 - reproducible
-- thesis-friendly
+- thesis-oriented
 - modular
-- easy to inspect in notebooks
+- transparent
+- easy to inspect through notebooks and scripts
+
+## Start Here
+For a quick review of the project, begin with:
+
+- Final thesis tables: `outputs/thesis_tables/`
+- Final thesis figures: `outputs/thesis_figures/`
+- Synthetic data workflow: `notebooks/01_synthetic_data_creation.ipynb`
+- Model training workflow: `notebooks/02_model_creation.ipynb`
+- Final model review and thesis results: `notebooks/03_model_review.ipynb`
 
 ## Folder Structure
 ```text
@@ -22,7 +45,7 @@ thesis_risk_ml/
 ├── notebooks/
 │   ├── 01_synthetic_data_creation.ipynb
 │   ├── 02_model_creation.ipynb
-│   └── model_review.ipynb
+│   └── 03_model_review.ipynb
 ├── outputs/
 │   ├── exploratory/
 │   │   ├── figures/
@@ -66,7 +89,7 @@ Python 3.10+ is recommended.
 ## Setup / Installation
 1. Clone the repository:
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Palsinag/Capstone-Project-PA.git cd Capstone-Project-PA
 cd thesis_risk_ml
 ```
 
@@ -115,7 +138,7 @@ The notebooks provide transparent step-by-step inspection of the full workflow f
 - `notebooks/02_model_creation.ipynb`
   Walkthrough of preprocessing, train/test split, cross-validation, model tuning, selection, and saved model creation.
 
-- `notebooks/model_review.ipynb`
+- `03_model_review.ipynb`
   Review notebook for loading saved models, comparing predictive performance, generating thesis tables/figures, inspecting feature importance, and checking diagnostics.
 
 ## Main Outputs
